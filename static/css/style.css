@@ -18,6 +18,7 @@ body {
 }
 
 a {
+    color: black;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -94,7 +95,8 @@ textarea.form-control {
   position: absolute;
   top: 0;
   width: 100%;
-  padding: 60px 0;
+  padding: 10px 50px;
+  background-color: white;
   z-index: 2;
 }
 
@@ -227,11 +229,10 @@ textarea.form-control {
 }
 
 .site-hero-inner .heading {
-  font-size: 80px;
-  font-family: "Abril Fatface", times, serif;
+  font-size: 48px;
+  font-family: 'Bodoni Moda', serif;
   color: #fff;
   line-height: 1;
-  font-weight: bold;
 }
 
 @media (max-width: 991.98px) {
@@ -1055,4 +1056,19 @@ textarea.form-control {
   background: #65c0ba;
   -webkit-box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+}
+.mt-10{
+    margin-top: 10px;
+}
+.ml-p-60{
+    margin-left: 60%;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.row-social{
+    display: flex;
 }
