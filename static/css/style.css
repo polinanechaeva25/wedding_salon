@@ -4,17 +4,17 @@ body {
   font-weight: 200;
   font-size: 18px;
   line-height: 1.8;
-  color: #6c757d;
+  color: black;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #65c0ba;
+  background: #c4b896;
 }
 
 ::selection {
   color: #fff;
-  background: #65c0ba;
+  background: #c4b896;
 }
 
 a {
@@ -27,6 +27,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #8e8260ed;
 }
 
 h1, h2, h3, h4, h5 {
@@ -59,11 +60,16 @@ h1, h2, h3, h4, h5 {
 .btn.btn-primary {
   background: none;
   border-width: 2px;
-  border-color: #d297b7;
+  border-color: #8e8260ed;
 }
 
 .btn.btn-primary:hover {
-  background: #d297b7;
+  background: #8e8260ed;
+}
+
+.btn.btn-primary:active {
+  background: #8e8260ed !important;
+  border-color: #8e8260ed !important;
 }
 
 .btn, .form-control {
@@ -92,12 +98,13 @@ textarea.form-control {
 }
 
 .site-header {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  padding: 10px 50px;
-  background-color: white;
-  z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #ffffffbf;
+    z-index: 9999;
 }
 
 .menu-open .site-header {
@@ -353,7 +360,7 @@ textarea.form-control {
 }
 
 .section {
-  padding: 7em 0;
+  padding: 4em 0;
 }
 
 @media (max-width: 991.98px) {
@@ -437,9 +444,9 @@ textarea.form-control {
 }
 
 .bg-light-2 {
-  background: #fafafa;
-  border-top: 1px solid #e0e0e0;
+    background: white;
 }
+
 
 .btn-play .icon {
   width: 50px;
@@ -837,7 +844,7 @@ textarea.form-control {
 }
 
 .footer-section {
-  background: #988197;
+  background: rgb(142 130 96 / 50%);
   color: #fff;
 }
 
@@ -856,7 +863,7 @@ textarea.form-control {
 }
 
 .footer-section p {
-  color: rgba(255, 255, 255, 0.5);
+  color: #ffffffbd;
 }
 
 .footer-section .bordertop {
@@ -1011,7 +1018,7 @@ textarea.form-control {
   letter-spacing: .2em;
   font-family: "Mukta Mahee", arial, sans-serif;
   text-transform: uppercase;
-  color: #d297b7;
+  color: #8e8260ed;
   font-weight: bold;
 }
 
@@ -1071,4 +1078,28 @@ textarea.form-control {
 }
 .row-social{
     display: flex;
+}
+
+.top-lawed{
+    top: 10%;
+}
+.back-border{
+    border: 3px solid black;
+    background: rgb(142 130 96 / 8%);
+    padding: 60px 140px 0px 0px;
+    left: 10%;
+    margin-top: 10%;
+}
+
+.font-poiret{
+    font-family: 'Poiret One', cursive;
+}
+.card{
+    background: rgb(142 130 96 / 8%);
+    padding: 20px;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 50%);
+    min-height: 775px;
+}
+.pl-lg-5, .px-lg-5 {
+    padding-left: 4rem!important;
 }
