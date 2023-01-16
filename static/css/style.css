@@ -2,7 +2,7 @@ body {
   background: #fff;
   font-family: "Mukta Mahee", arial, sans-serif;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.8;
   color: black;
 }
@@ -1081,25 +1081,88 @@ textarea.form-control {
 }
 
 .top-lawed{
-    top: 10%;
+    top: 5%;
 }
 .back-border{
     border: 3px solid black;
-    background: rgb(142 130 96 / 8%);
+    background: #8e82604f;
     padding: 60px 140px 0px 0px;
     left: 10%;
     margin-top: 10%;
 }
 
 .font-poiret{
-    font-family: 'Poiret One', cursive;
+    font-family: "CaviarDreamsRegular";
 }
 .card{
-    background: rgb(142 130 96 / 8%);
+    background: #8e82604f;
     padding: 20px;
     box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 50%);
-    min-height: 775px;
+    min-height: 818px;
 }
 .pl-lg-5, .px-lg-5 {
     padding-left: 4rem!important;
+}
+
+@font-face {
+    font-family: "CaviarDreamsRegular";
+    src: url("../fonts/ttf/CaviarDreams.ttf");
+    url("../fonts/ttf/CaviarDreams.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+.pro-wrapper{
+    display: flex;
+    flex: 0 0 50%;
+
+}
+.big-wrapper{
+    display: flex;
+}
+.little-wrapper{
+    display: flex;
+}
+
+.first-width{
+    display: flex;
+    flex: 0 0 30%;
+}
+.vertic{
+    object-fit: cover;
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.mlr-0{
+    margin-left: -10px !important;
+    margin-right: 0 !important;
+}
+.p-7{
+    padding: 7px;
+}
+.pr-0{
+    padding-right: 0;
+}
+.horiz{
+    object-fit: cover;
+    width: 100%;
+    height: 75%;
+}
+.last-line{
+    width: 100%;
+}
+.square{
+    object-fit: cover;
+    width: 100%;
+    height: 50vw;
+}
+.footer-custom{
+    display: flex;
+
+}
+.foot-p{
+    flex: 0 0 20%;
 }
