@@ -1121,11 +1121,12 @@ textarea.form-control {
 }
 .little-wrapper{
     display: flex;
+    flex: 0 0 100%;
 }
 
 .first-width{
     display: flex;
-    flex: 0 0 30%;
+    flex: 0 0 45%;
 }
 .vertic{
     object-fit: cover;
@@ -1149,15 +1150,19 @@ textarea.form-control {
 .horiz{
     object-fit: cover;
     width: 100%;
-    height: 75%;
+    height: 100%;
 }
 .last-line{
     width: 100%;
+    flex: 0 0 70%;
 }
-.square{
+.hor-square{
     object-fit: cover;
     width: 100%;
-    height: 50vw;
+}
+.ver-square{
+    object-fit: cover;
+    height: 100%;
 }
 .footer-custom{
     display: flex;
