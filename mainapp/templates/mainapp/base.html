@@ -33,6 +33,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bodoni+Moda:opsz@6..96&family=Poiret+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
     <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}"/>
 
     </head>
@@ -47,11 +50,11 @@
 
         <footer class="section footer-section">
           <div class="container">
-              <h3 class="font-poiret">Контакты</h3>
+<!--              <h3 class="font-poiret">Контакты</h3>-->
               <div class="footer-custom font-poiret">
-                <p class="foot-p" style="margin-right: 5%;"><span class="d-block">Address:</span> <span> 98 West 21th Street, Suite 721 New York NY 10016</span></p>
-                <p class="foot-p"><span class="d-block">Phone:</span> <span> (+1) 435 3533</span></p>
-                <p class="foot-p"><span class="d-block">Email:</span> <span> info@yourdomain.com</span></p>
+                <p class="foot-p" style="margin-right: 5%;"><span class="d-block">Контакты:</span> <span></span></p>
+                <p class="foot-p"><span class="d-block">Телефон:</span> <span>+7-921-443-01-21 </span></p>
+                <p class="foot-p"><span class="d-block">Email:</span> <span>L.A.WED@yandex.ru</span></p>
               <p class="foot-p social">
                 <a href="https://vk.com/lawedru" target="_blank"><span class="fa fa-vk"></span></a>
                 <a href="#" target="_blank"><span class="fa fa-instagram"></span></a>
@@ -75,5 +78,20 @@
     <script src="{% static 'js/animsition.min.js' %}"></script>
     <script src="{% static 'js/aos.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#slider").owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          navText: [
+          '<svg width="35" height="35" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>',
+          '<svg width="35" height="35" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>'
+        ]
+        });
+      });
+    </script>
+
   </body>
 </html>

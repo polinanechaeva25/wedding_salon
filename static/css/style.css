@@ -574,7 +574,9 @@ textarea.form-control {
 }
 
 .testimonial .author-image img {
-  width: 70px;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
 }
 
 .post .media-custom {
@@ -624,7 +626,8 @@ textarea.form-control {
 .owl-carousel .owl-nav {
   position: absolute;
   top: 50%;
-  width: 100%;
+  left: -13%;
+  width: 126%;
 }
 
 .owl-carousel .owl-nav .owl-prev,
@@ -1171,3 +1174,8 @@ textarea.form-control {
 .foot-p{
     flex: 0 0 20%;
 }
+
+
+
+
+
