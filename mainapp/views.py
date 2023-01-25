@@ -12,6 +12,7 @@ class MainListView(ListView):
 
 class EmailView(View):
     def get(self, request):
+        print('JUST POST REQUEST IS ADMITTED!')
         return redirect("mainapp:index")
 
     def post(self, request):
@@ -24,7 +25,8 @@ class EmailView(View):
             title = f'САЙТ - новое письмо.'
             email_body = f'Имя: {name}\nТелефон: {phone}\nEmail: {email}\nСообщение: {message}'
             print('SENDING EMAIL:')
-            send_mail(title, email_body, settings.EMAIL_HOST_USER, ['justitdevelopment@gmail.com'])  # L.A.WED@yandex.ru
+            send_mail(title, email_body, settings.EMAIL_HOST_USER,
+                      ['L.A.WED@yandex.ru'])  # justitdevelopment@gmail.com
         except Exception as e:
             print('ERROR:', e)
         return redirect("mainapp:index")
