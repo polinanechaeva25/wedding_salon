@@ -23,6 +23,7 @@ class EmailView(View):
 
             title = f'САЙТ - новое письмо.'
             email_body = f'Имя: {name}\nТелефон: {phone}\nEmail: {email}\nСообщение: {message}'
+            print('SENDING EMAIL:')
             send_mail(title, email_body, settings.EMAIL_HOST_USER, ['justitdevelopment@gmail.com'])  # L.A.WED@yandex.ru
         except Exception as e:
             print('ERROR:', e)
