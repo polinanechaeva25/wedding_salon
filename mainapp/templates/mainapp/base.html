@@ -57,14 +57,14 @@
                 <p class="foot-p"><span class="d-block">Email:</span> <span>L.A.WED@yandex.ru</span></p>
               <p class="foot-p social">
                 <a href="https://vk.com/lawedru" target="_blank"><span class="fa fa-vk"></span></a>
-                <a href="#" target="_blank"><span class="fa fa-instagram"></span></a>
-                <a class="pl-20"href="https://t.me/LA88YON_DQJ5E0MDAy" target="_blank"><span class="fa fa-telegram"></span></a>
+                <a href="https://instagram.com/lawed.ru?igshid=MWI4MTIyMDE=" target="_blank"><span class="fa fa-instagram"></span></a>
+                <a class="pl-20" href="https://t.me/LA88YON_DQJ5E0MDAy" target="_blank"><span class="fa fa-telegram"></span></a>
 
               </p>
               </div>
 
             <div class="row bordertop text-center pt-5 font-poiret">
-              <p class="col-md-12">&copy; Copyright 2018. All Rights Reserved. <br> Designed &amp; Developed by <a href="https://free-template.co/">Free-Template.co</a> <br>Distributed by <a href="https://themewagon.com/">ThemeWagon</a></p>
+              <p class="col-md-12 mini-txt">&copy; Copyright 2018. All Rights Reserved. <br> Designed &amp; Developed by <a href="https://free-template.co/">Free-Template.co</a> <br>Distributed by <a href="https://themewagon.com/">ThemeWagon</a></p>
             </div>
           </div>
         </footer>
@@ -83,12 +83,32 @@
       $(document).ready(function(){
         $("#slider").owlCarousel({
           loop:true,
-          margin:10,
+          margin:30,
+          dotsEach: 3,
           nav:true,
           navText: [
           '<svg width="35" height="35" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>',
           '<svg width="35" height="35" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>'
-        ]
+        ],
+        responsiveClass:true,
+        responsive:{
+            // от 0 и больше
+            0:{
+                items:1,
+                nav:true
+            },
+            // от 768 и больше
+            1050:{
+                items:2,
+                nav:false
+            },
+            // от 1400 и больше
+            1400:{
+                items:3,
+                nav:true,
+                loop:false
+            }
+        }
         });
       });
     </script>
