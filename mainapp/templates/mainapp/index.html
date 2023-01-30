@@ -1,7 +1,6 @@
 {% extends 'mainapp/base.html'%}
 {% load static %}
 
-
 {% block 'content' %}
 
 <section class="site-hero overlay"
@@ -14,7 +13,6 @@
         </div>
     </div>
 </section>
-
 
 <section class="section" id="next-section">
     <div class="container">
@@ -30,14 +28,15 @@
                 <p class="pt-4">
                 </p>
                 <h5 class="note">
-                    Ваши LAWED</h5>
+                    Ваши LAWED
+                </h5>
             </div>
             <div class="col-lg-6 mb-4" data-aos="fade-up">
-                <p class="txt-center"><img src="{% static 'images/first.jpg' %}" alt="Free Template by Free-Template.co" class="img-fluid"
-                        style="object-fit: cover;
-    width: 450px;"></p>
+                <p class="txt-center">
+                    <img src="{% static 'images/first.jpg' %}" alt="Main" class="img-fluid" style="object-fit: cover;
+    width: 450px;">
+                </p>
             </div>
-
         </div>
     </div>
 </section>
@@ -53,62 +52,45 @@
         <div class="row">
             <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up">
                 <div class="d-block ftco-img-flaticon card">
-                    <img src="{% static 'images/glasses.png' %}" alt="Free Template by Free-Template.co"
-                         class="img-fluid mb-4">
+                    <img src="{% static 'images/glasses.png' %}" alt="Service-1" class="img-fluid mb-4">
                     <h3 class="font-poiret">СВАДЬБА <br> «ПОД КЛЮЧ»</h3>
                     <p class="font-poiret">Мы берем на себя полноценную подготовку и организацию </p>
-                    <p class="font-poiret">
-                        Разрабатываем концепцию и стиль</p>
-                    <p class="font-poiret">
-                        Подбираем площадку и специалистов</p>
-                    <p class="font-poiret">
-                        Оптимизируем бюджет и убережем от лишних трат</p>
-                    <p class="font-poiret">
-                        Координируем свадебный день</p>
-                    <p class="font-poiret">
-                    </p>
-                    <br>
+                    <p class="font-poiret">Разрабатываем концепцию и стиль</p>
+                    <p class="font-poiret">Подбираем площадку и специалистов</p>
+                    <p class="font-poiret">Оптимизируем бюджет и убережем от лишних трат</p>
+                    <p class="font-poiret">Координируем свадебный день</p><br>
                     <h3 class="font-poiret price">СТОИМОСТЬ от <br> 30 000 рублей</h3>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="d-block ftco-img-flaticon card">
-                    <img src="{% static 'images/wedding-ring.png' %}" alt="Free Template by Free-Template.co"
-                         class="img-fluid mb-4">
+                    <img src="{% static 'images/wedding-ring.png' %}" alt="Service-2" class="img-fluid mb-4">
                     <h3 class="font-poiret">СВАДЕБНЫЙ КООРДИНАТОР</h3>
                     <p class="font-poiret">Составляем тайминг свадебного дня</p>
-                    <p class="font-poiret">Взаимодействуем с привлеченными специалистами
-                    </p>
-                    <p class="font-poiret">Координируем подготовку площадки
-                    </p>
-                    <p class="font-poiret">Решаем любые ситуации
-                    </p>
-                    <p class="font-poiret">Помогаем молодоженам и гостям
-                    </p>
-                    <p class="font-poiret">Мы на связи 24/7</p>
-                    <br>
+                    <p class="font-poiret">Взаимодействуем с привлеченными специалистами</p>
+                    <p class="font-poiret">Координируем подготовку площадки</p>
+                    <p class="font-poiret">Решаем любые ситуации</p>
+                    <p class="font-poiret">Помогаем молодоженам и гостям</p>
+                    <p class="font-poiret">Мы на связи 24/7</p><br>
                     <h3 class="font-poiret price">СТОИМОСТЬ от <br> 10 000 рублей</h3>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="d-block ftco-img-flaticon card">
-                    <img src="{% static 'images/cake.png' %}" alt="Free Template by Free-Template.co"
-                         class="img-fluid mb-4">
+                    <img src="{% static 'images/cake.png' %}" alt="Service-3" class="img-fluid mb-4">
                     <h3 class="font-poiret">СВАДЕБНАЯ КОНСУЛЬТАЦИЯ</h3>
                     <p class="font-poiret">Встретимся лично или онлайн</p>
                     <p class="font-poiret">Ответим на все интересующие Вас вопросы о подготовке к свадьбе</p>
                     <p class="font-poiret">Делимся секретами, которые помогут избежать проблем и различных ситуаций</p>
                     <p class="font-poiret">Поможем сформировать бюджет свадьбы </p>
                     <p class="font-poiret">Составим тайминг свадебного дня </p>
-                    <p class="font-poiret mmb-45">Проконсультируем в подборе свадебных специалистов </p>
-                    <br>
-                    <h3 class="font-poiret price">СТОИМОСТЬ<span style="font-size: 18px; vertical-align: super;">*</span> <br>
-                        2 000 рублей</h3>
-                    <br>
+                    <p class="font-poiret mmb-45">Проконсультируем в подборе свадебных специалистов </p><br>
+                    <h3 class="font-poiret price">СТОИМОСТЬ<span style="font-size: 18px; vertical-align: super;">*</span>
+                        <br>2 000 рублей
+                    </h3><br>
                     <p class="font-poiret" style="font-size: 12px;">* ВСТРЕЧА ДО 1 ЧАСА БЕСПЛАТНО</p>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -116,40 +98,44 @@
 <section class="section">
     <div>
         <div class="mlr-0">
-
             <div class="big-wrapper">
                 <div class="first-width">
-                    <a href="{% static 'images/gallery-2.jpg' %}" data-fancybox="gallery"><img
-                            src="{% static 'images/gallery-2.jpg' %}" alt="Img Gallery"
-                            class="img-fluid vertic p-7 mpr-0"></a>
+                    <a href="{% static 'images/gallery-2.jpg' %}" data-fancybox="gallery">
+                        <img src="{% static 'images/gallery-2.jpg' %}" alt="Gallery-1"
+                            class="img-fluid vertic p-7 mpr-0">
+                    </a>
                 </div>
                 <div class="wrapper">
                     <div class="pro-wrapper">
-                        <a href="{% static 'images/gallery-1.jpg' %}" data-fancybox="gallery"><img
-                                src="{% static 'images/gallery-1.jpg' %}" alt="Img Gallery"
-                                class="img-fluid p-7 vertic"></a>
-
-                        <a href="{% static 'images/gallery-3.jpg' %}" data-fancybox="gallery"><img
-                                src="{% static 'images/gallery-3.jpg' %}" alt="Img Gallery"
-                                class="img-fluid p-7 pr-0 vertic"></a>
+                        <a href="{% static 'images/gallery-1.jpg' %}" data-fancybox="gallery">
+                            <img src="{% static 'images/gallery-1.jpg' %}" alt="Gallery-2"
+                                class="img-fluid p-7 vertic">
+                        </a>
+                        <a href="{% static 'images/gallery-3.jpg' %}" data-fancybox="gallery">
+                            <img src="{% static 'images/gallery-3.jpg' %}" alt="Gallery-3"
+                                class="img-fluid p-7 pr-0 vertic">
+                        </a>
                     </div>
                     <div>
-                        <a href="{% static 'images/gallery-4.jpg' %}" data-fancybox="gallery"><img
-                                src="{% static 'images/gallery-4.jpg' %}" alt="Img Gallery"
-                                class="img-fluid p-7 pr-0 horiz"></a>
+                        <a href="{% static 'images/gallery-4.jpg' %}" data-fancybox="gallery">
+                            <img src="{% static 'images/gallery-4.jpg' %}" alt="Gallery-4"
+                                class="img-fluid p-7 pr-0 horiz">
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="little-wrapper">
                 <div class="last-line">
-                    <a href="{% static 'images/gallery-6.jpg' %}" data-fancybox="gallery"><img
-                            src="{% static 'images/gallery-6.jpg' %}" alt="Img Gallery"
-                            class="img-fluid p-7 hor-square"></a>
-                    </div>
+                    <a href="{% static 'images/gallery-6.jpg' %}" data-fancybox="gallery">
+                        <img src="{% static 'images/gallery-6.jpg' %}" alt="Gallery-5"
+                            class="img-fluid p-7 hor-square">
+                    </a>
+                </div>
                 <div>
-                    <a href="{% static 'images/gallery-5.jpg' %}" data-fancybox="gallery"><img
-                            src="{% static 'images/gallery-5.jpg' %}" alt="Img Gallery"
-                            class="img-fluid p-7 pr-0 ver-square"></a>
+                    <a href="{% static 'images/gallery-5.jpg' %}" data-fancybox="gallery">
+                        <img src="{% static 'images/gallery-5.jpg' %}" alt="Gallery-6"
+                            class="img-fluid p-7 pr-0 ver-square">
+                    </a>
                 </div>
             </div>
         </div>
@@ -157,7 +143,6 @@
 </section>
 
 <section class="section testimonial-section bg-light-2">
-
     <div class="container">
         <div class="row justify-content-center text-center mb-5">
             <div class="col-md-8">
@@ -168,9 +153,8 @@
             <div data-aos="fade-up" data-aos-delay="300">
                 <div class="testimonial">
                     <div class="author-image mb-3">
-                        <img src="{% static 'images/review-7.jpg' %}" alt="Image placeholder" class="rounded-circle">
+                        <img src="{% static 'images/review-7.jpg' %}" alt="Review-1" class="rounded-circle">
                     </div>
-
                     <p class="font-poiret">
                         &ldquo; У нас была свадьба в крепости "БИП". Девочки очень сильно помогли нам с организацией
                         нашего торжества! Мы даже не представляли с чего начать и голова шла кругом... Настоящие
@@ -185,25 +169,21 @@
             <div data-aos="fade-up" data-aos-delay="100">
                 <div class="testimonial">
                     <div class="author-image mb-3">
-                        <img src="{% static 'images/review-1.jpg' %}" alt="Image placeholder" class="rounded-circle">
+                        <img src="{% static 'images/review-1.jpg' %}" alt="Review-2" class="rounded-circle">
                     </div>
-
                     <p class="font-poiret">
                         &ldquo; Хочется сказать огромное - при огромное спасибо нашим
                         организатором, настоящим профессионалам.
                         Без вас свадьба не была бы такой. Спасибо вам за советы, помощь и конечно же терпение. Вы и
                         ваша команда провела все на высшем уровне. &rdquo;
                     </p>
-
                     <p><em class="font-poiret">&mdash; Евгения</em></p>
-
                 </div>
             </div>
-
             <div data-aos="fade-up" data-aos-delay="200">
                 <div class="testimonial">
                     <div class="author-image mb-3">
-                        <img src="{% static 'images/review-3.jpg' %}" alt="Image placeholder" class="rounded-circle">
+                        <img src="{% static 'images/review-3.jpg' %}" alt="Review-3" class="rounded-circle">
                     </div>
                     <p class="font-poiret">
                         &ldquo; Мы остались в восторге, и так хочется пережить этот день снова и
@@ -216,14 +196,11 @@
                     <p><em class="font-poiret">&mdash; Светлана</em></p>
                 </div>
             </div>
-
-
             <div data-aos="fade-up" data-aos-delay="300">
                 <div class="testimonial">
                     <div class="author-image mb-3">
-                        <img src="{% static 'images/review-5.jpg' %}" alt="Image placeholder" class="rounded-circle">
+                        <img src="{% static 'images/review-5.jpg' %}" alt="Review-4" class="rounded-circle">
                     </div>
-
                     <p class="font-poiret">
                         &ldquo; Эмоциям нет предела, это было невероятно здорово! Мы
                         наслаждались красотой, великолепным обслуживаем и вкусной едой. Это был незабываемый
@@ -236,9 +213,8 @@
             <div data-aos="fade-up" data-aos-delay="300">
                 <div class="testimonial">
                     <div class="author-image mb-3">
-                        <img src="{% static 'images/review-4.jpg' %}" alt="Image placeholder" class="rounded-circle">
+                        <img src="{% static 'images/review-4.jpg' %}" alt="Review-5" class="rounded-circle">
                     </div>
-
                     <p class="font-poiret">
                         &ldquo; Хотим сказать огромное спасибо за этот прекрасный и очень важный день в нашей жизни.
                         Отдельное спасибо организаторам, все прошло на высшем уровне, мы остались очень довольны, а
@@ -247,13 +223,11 @@
                     <p><em class="font-poiret">&mdash; Светлана</em></p>
                 </div>
             </div>
-
             <div data-aos="fade-up" data-aos-delay="300">
                 <div class="testimonial">
                     <div class="author-image mb-3">
-                        <img src="{% static 'images/review-6.jpg' %}" alt="Image placeholder" class="rounded-circle">
+                        <img src="{% static 'images/review-6.jpg' %}" alt="Review-6" class="rounded-circle">
                     </div>
-
                     <p class="font-poiret">
                         &ldquo; Спасибо большое за координацию нашей свадьбы) Грамотно и вовремя решались все вопросы,
                         нам понравилось с вами работать) &rdquo;
@@ -261,13 +235,11 @@
                     <p><em class="font-poiret">&mdash; Наталия</em></p>
                 </div>
             </div>
-
             <div data-aos="fade-up" data-aos-delay="300">
                 <div class="testimonial">
                     <div class="author-image mb-3">
-                        <img src="{% static 'images/review-2.jpg' %}" alt="Image placeholder" class="rounded-circle">
+                        <img src="{% static 'images/review-2.jpg' %}" alt="Review-7" class="rounded-circle">
                     </div>
-
                     <p class="font-poiret">
                         &ldquo; Я долго искала организаторов и как только нашла вас, сразу поняла что это будет самый
                         лучший день. Все мои мечты воплотились в реальность и каждая минута этого дня была идеальная,
@@ -276,13 +248,11 @@
                     <p><em class="font-poiret">&mdash; Екатерина</em></p>
                 </div>
             </div>
-
             <div data-aos="fade-up" data-aos-delay="300">
                 <div class="testimonial">
                     <div class="author-image mb-3">
-                        <img src="{% static 'images/review-8.jpg' %}" alt="Image placeholder" class="rounded-circle">
+                        <img src="{% static 'images/review-8.jpg' %}" alt="Review-8" class="rounded-circle">
                     </div>
-
                     <p class="font-poiret">
                         &ldquo; В прекрасный праздник День семьи, любви и верности, у нас была свадьба. За время
                         подготовки к мероприятию организаторы всегда были на связи (даже в выходные, нам стыдно🙈),
@@ -309,7 +279,6 @@
                 </h5>
             </div>
             <div class="col-md-7">
-
                 <form action="#" method="post" class="bg-white p-md-5 p-4 mb-5">
                     <div class="row">
                         <div class="col-md-6 form-group font-poiret">
@@ -321,7 +290,6 @@
                             <input type="text" id="phone" class="form-control ">
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="col-md-12 form-group font-poiret">
                             <label for="email">Почта</label>
@@ -340,23 +308,26 @@
                         </div>
                     </div>
                 </form>
-
             </div>
             <div class="col-md-5">
                 <div class="row">
                     <div class="col-md-10 ml-auto contact-info">
-<!--                        <p><span class="d-block font-poiret">Адресс:</span> <span class="font-poiret"> 98 West 21th Street, Suite 721 New York NY 10016</span>-->
-<!--                        </p>-->
                         <p><span class="d-block font-poiret">Телефон:</span> <span
-                                class="font-poiret">+7-921-443-01-21 </span></p>
-                        <p><span class="d-block font-poiret">Email:</span> <span class="font-poiret">L.A.WED@yandex.ru</span>
+                                class="font-poiret"><a href="tel:+79214430121">+7-921-443-01-21</a></span></p>
+                        <p><span class="d-block font-poiret">Email:</span> <span class="font-poiret">
+                            <a href="mailto:L.A.WED@yandex.ru">L.A.WED@yandex.ru</a></span>
                         </p>
                         <p class="foot-p social">
-                            <a class="pl-20" href="https://vk.com/lawedru" target="_blank"><span class="fa fa-vk"></span></a>
-                            <a class="pl-20" href="https://instagram.com/lawed.ru?igshid=MWI4MTIyMDE=" target="_blank"><span class="fa fa-instagram"></span></a>
-                            <a class="pl-20" href="https://t.me/LA88YON_DQJ5E0MDAy" target="_blank"><span class="fa fa-telegram"></span></a>
-
-                          </p>
+                            <a class="pl-20" href="https://vk.com/lawedru" target="_blank">
+                                <span class="fa fa-vk"></span>
+                            </a>
+                            <a class="pl-20" href="https://instagram.com/lawed.ru?igshid=MWI4MTIyMDE=" target="_blank">
+                                <span class="fa fa-instagram"></span>
+                            </a>
+                            <a class="pl-20" href="https://t.me/LA88YON_DQJ5E0MDAy" target="_blank">
+                                <span class="fa fa-telegram"></span>
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
