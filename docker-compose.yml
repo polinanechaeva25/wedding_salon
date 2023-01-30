@@ -1,0 +1,28 @@
+version: '3.1'
+
+services:
+  backend:
+    volumes:
+      - static:/static
+      - .:/app
+    env_file:
+      - ./.env/.env
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    command: bash -c "
+      python manage.py migrate
+      && gunicorn wedd_salon.wsgi -b 0.0.0.0:8080
+      "
+  nginx:
+    build: ./nginx
+    ports:
+      - 80:80
+    depends_on:
+      - backend
+    volumes:
+      - ./static:/static
+volumes:
+  static:
+  app:
